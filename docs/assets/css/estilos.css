@@ -1,5 +1,5 @@
 body{
- font-family: 'Rubik', sans-serif;
+   font-family: 'Rubik', sans-serif;
 }
 
 
@@ -61,10 +61,10 @@ body{
     font-weight: 800;
 }
 .content-image{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ height: 100%;
 
 }
 .text-main{
@@ -93,10 +93,10 @@ body{
 }
 .container-alimentos{
     padding-top: 65px;
-    padding-bottom: 60px;
+    padding-bottom: 107px;
 }
 .card-alimentos{
-    width: 173px;
+    width: 195px;
 
 }
 .card-text__alimentos{
@@ -120,43 +120,55 @@ body{
 
 
 }
+.card-alimentos3{
+    width: 22rem;
+    height: 24rem;
+    position: relative;
+}
 .img-alimentos2{
     width: 352px;
-    height: 408px;
+    height: 358px;
 }
 .card-title__alimentos{
     padding-left: 10px;
+    font-size: 18px;
+
 }
 .container-etiqueta{
-   background-color: #1E90FF;
-   color: white;
-   position: absolute;
-   width: 52%;
-   text-align: center;
-   height: 8%;
-   bottom: 353px;
-   /* z-index: -21; */
-   font-weight: 800;
-   /* position: absolute; */
-   left: 169px;
-   padding: 3px;
+ background-color: #1E90FF;
+ color: white;
+ position: absolute;
+ width: 52%;
+ text-align: center;
+ height: 8%;
+ bottom: 353px;
+ /* z-index: -21; */
+ font-weight: 800;
+ /* position: absolute; */
+ left: 169px;
+ padding: 3px;
 }
 .container-alimentos__content2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 70px;
-    padding-top: 136px;
+
 
 
 }
 .container-alimentos__content{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 45px;
-    padding-top: 100px;
+   /* display: grid;
+   grid-template-columns: 2fr 1fr;*/
+   grid-gap: 45px;
+   padding-top: 100px;
+   display: flex;
+}
+.main-banner__alimentos{
+    width: 95%;
+}
+.container-alimentos__descripcion{
+    width: 63%;
 }
 .img-alimentos{
-    width: 172px;
+    width: 194px;
+    height: 146px;
 }
 .container-carnes{
     background: #0f5caf;
@@ -187,6 +199,10 @@ body{
   width: 10px;
   height: 10px;
 }
+.slick-next {
+    right: 11px;
+    top: 121px;
+}
 .container-carnes .slick-prev:before, .container-carnes .slick-next:before {
     /* display: inline-block; */
     font: normal normal normal 14px/1 FontAwesome;
@@ -216,7 +232,7 @@ body{
     position: absolute;
     width: 207vh;
     height: 27vh;
-    top: -1px;
+    top: -2px;
     left: 3px
 }
 .slick-slider {
@@ -256,13 +272,13 @@ body{
     padding-top: 30px;
 }
 .container-lacteos__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     padding-top: 50px;
+    display: flex;
 }
 .container-lacteos{
     padding-top: 100px;
+    padding-bottom: 69px;
 }
 .card-body__carnes{
     background: white;
@@ -271,11 +287,11 @@ body{
     display: flex;
 }
 .card-img__destacado{
-    height: 243px;
-    width: 447px;
+    height: 382px;
+    width: 488px;
 }
 .card-img__destacado1{
-    width: 223px;
+    width: 247px;
     height: 158px;
 }
 .container-lacteos__destacado{
@@ -321,19 +337,19 @@ body{
     height: 28px;
     width: 200px;
     padding: 2px;
-    bottom: 373px;
-    left: 246px;
+    bottom: 354px;
+    left: 288px;
 }
 .container-etiqueta__green2{
-   background-color: #32CD32;
-   color: white;
-   text-align: center;
-   position: absolute;
-   height: 28px;
-   width: 109px;
-   padding: 2px;
+ background-color: #32CD32;
+ color: white;
+ text-align: center;
+ position: absolute;
+ height: 28px;
+ width: 109px;
+ padding: 2px;
 
-   left: 113px;
+ left: 109px;
 }
 .container-etiqueta__green3{
     background-color: #32CD32;
@@ -344,7 +360,7 @@ body{
     width: 109px;
     padding: 2px;
 
-    left: 337px;
+    left: 356px;
 }
 .img-position2{
 
@@ -395,9 +411,9 @@ input[type="name"],
     padding-right: 95px;
 }
 .form-register1{
-   display: flex;
-   justify-content: center;
-   padding-top: 10px;
+ display: flex;
+ justify-content: center;
+ padding-top: 10px;
 }
 .container-form__title{
     display: flex;
@@ -461,7 +477,73 @@ input[type="name"],
     list-style-type: none;
     color: white;
 }
+.img-lacteos{
+    width: 172px;
+    height: 184px;
+}
+.container-alimentos__content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+    padding-top: 134px;
+}
+.img-bebida{
+    width: 172px;
+    height: 187px;
+}
+.img-snack{
+    width: 172px;
+    height: 197px;
+}
+.img-destacado__queso{
+    width: 352px;
+    height: 269px;
+}
+.descripcion-queso{
+    margin-left: 40px;
+}
+.img-destacado__bebida{
+    width: 352px;
+    height: 318px;
+}
+.container-alimentos__destacados2{
+    padding-top: 91px; 
+}
+.container-alimentos__destacados3{
+  padding-top: 91px; 
+  padding-left: 40px;
+}
+.container-descripcion__snack{
+    padding-top: 121px;
+    text-align: center;
+    font-weight: 800;
+}
+.link-final{
+    color: white;
 
+}
+.link-final:hover{
+    color:#32cd32; 
+    text-decoration: none;
+
+}
+.link-boton{
+    background-color: #32CD32;
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+    padding: 7px 1.75rem;
+}
+.link-boton:hover{
+    background-color: white;
+    border: 2px solid #32CD32;
+    color: #32CD32;
+    text-decoration: none;
+
+}
+.lista-final{
+    line-height: 44px;
+}
 @media (min-width: 0px) and (max-width: 767px){
     .img-ilustracion{
         width: 200px;
@@ -486,16 +568,15 @@ input[type="name"],
         padding-top: 20px;
     }
     .container-alimentos__title{
-       margin-bottom: 0px;
+     margin-bottom: 0px;
 
-   }
-   .container-alimentos__text{
+ }
+ .container-alimentos__text{
     padding-bottom: 41px;
 }
 .container-alimentos__content{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 0px;
+   display: block;
+   padding-top: 0px;
 }
 .container-alimentos__content2{
     display: grid;
@@ -516,6 +597,9 @@ input[type="name"],
 }
 .card-alimentos2{
     width: 294px;
+}
+.card-alimentos3{
+    width: 281px;
 }
 .img-alimentos2{
     width: 290px;
@@ -608,12 +692,198 @@ input[type="name"],
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    top: 100px;
+    
     left: 4px;
 }
 .main-banner__carnes {
     width: 97%;
 }
+.main-banner__alimentos{
+ width: 97%;
+}
+.container-carnes .slick-prev:before {
+    content: '\f053';
+    display: none;
+}
 
+
+.container-carnes .slick-next:before {
+    content: '\f054';
+    display: none;
+}
+.container-alimentos__content3 {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 70px;
+    padding-top: 0px;
+}
+.container-bebidas__img{
+    display: flex;
+    justify-content: center;
+}
+.container-lacteos__img{
+    display: flex;
+    justify-content: center;
+}
+.container-snack__img{
+    display: flex;
+    justify-content: center;
+}
+.form-control2 {
+    display: block;
+    width: 140%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    /* height: 100%; */
+    height: 116px;
+}
+.form-mensajes {
+   margin-left: 0px;
+}
+.boton-form {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+.container-final__title{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.container-final__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.boton-lista{
+    padding-top: 0px;
+}
+.container-final__lista{
+    padding-top: 29px;
+}
+.container-alimentos__destacados{
+    grid-row-start: 2;
+    padding-top: 91px;
+}
+.container-alimentos__descripcion{
+    width: 95%;
+}
+.container-lacteos__content{
+    display: block;
+}
+.container-alimentos__destacados3{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.container-alimentos{
+    padding-bottom: 148px;
+}
+.container-destacado__img{
+
+    justify-content: center;
+}
+.descripcion-queso{
+    padding-top: 109px;
+    margin-left: 0px;
+}
+.container-alimentos__destacados2{
+    padding-top: 0px;
+}
+.img-destacado__queso {
+    width: 291px;
+    height: 358px;
+}
+.img-destacado__bebida {
+    width: 242px;
+    height: 318px;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .content-image{
+        display: block;
+        text-align: center;
+    }
+    .text-main{
+        text-align: center;
+
+    }
+    .boton-main{
+        display: flex;
+        justify-content: center;
+    }
+    .container-ilustration{
+        padding-top: 50px;
+    }
+    .container-alimentos__content{
+        display: block;
+    }
+    .container-alimentos__descripcion{
+        width: 95%;
+    }
+    .container-alimentos__destacados{
+        padding-top: 88px;
+    }
+    .container-lacteos__content{
+        display: block;
+    }
+    .container-alimentos__destacados2{
+        padding-top: 0px;
+    }
+    .container-lacteos__destacado {
+        display: block;
+    }
+    .card-destacado {
+        width: 18rem;
+        position: relative;
+        padding-top: 76px;
+        padding-left: 88px;
+    }
+    .container-etiqueta__green {
+        background-color: #32CD32;
+        color: white;
+        text-align: center;
+        position: absolute;
+        height: 28px;
+        width: 200px;
+        padding: 2px;
+        bottom: 354px;
+        left: 377px;
+    }
+    .form-mensajes {
+        margin-left: 29px;
+    }
+    .form-control2 {
+        display: block;
+        width: 111%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        height: 110px;
+    }
+    .boton-form {
+        display: flex;
+        justify-content: flex-end;
+        width: 96%;
+    }
+    .container-final__content {
+        display: grid;
+        grid-template-columns: 280px 1fr 1fr;
+        padding-top: 50px;
+    }
 
 }
