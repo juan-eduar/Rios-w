@@ -1,5 +1,5 @@
 body{
- font-family: 'Rubik', sans-serif;
+   font-family: 'Rubik', sans-serif;
 }
 .img-navbar{
     width: 100px;
@@ -27,6 +27,13 @@ body{
 }
 .container-form .form-control:focus{
     box-shadow: 0 0 0 0.2rem #32cd32;
+}
+.img-panaderia{
+    width: 100%;
+    height: 100%;
+}
+.card-body__alimentos{
+    padding-top: 10px;
 }
 .boton-contacto{
     display: flex;
@@ -185,11 +192,11 @@ input[type="subject"],{
     font-weight: 800;
 }
 .content-image{
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
-   height: 100%;
-   width: 91%;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ height: 100%;
+ width: 91%;
 
 }
 .text-main{
@@ -270,18 +277,18 @@ input[type="subject"],{
 
 }
 .container-etiqueta{
-   background-color: #1E90FF;
-   color: white;
-   position: absolute;
-   width: 52%;
-   text-align: center;
-   height: 8%;
-   bottom: 353px;
-   /* z-index: -21; */
-   font-weight: 800;
-   /* position: absolute; */
-   left: 169px;
-   padding: 3px;
+ background-color: #1E90FF;
+ color: white;
+ position: absolute;
+ width: 52%;
+ text-align: center;
+ height: 8%;
+ bottom: 353px;
+ /* z-index: -21; */
+ font-weight: 800;
+ /* position: absolute; */
+ left: 169px;
+ padding: 3px;
 }
 .container-alimentos__content2{
 
@@ -338,10 +345,10 @@ input[type="subject"],{
     background: #32CD32;
 }
 .img-position3{
-   width: 100%;
-   height: 30%;
-   position: absolute;
-   top: 74%;
+ width: 100%;
+ height: 30%;
+ position: absolute;
+ top: 74%;
 }
 
 .container-carnes .slick-dots li button:before {
@@ -417,10 +424,10 @@ input[type="subject"],{
     position: relative;
 }
 .img-carne__ilustracion{
- z-index: 1;
- position: absolute;
- right: 10%;
- bottom: 0px;
+   z-index: 1;
+   position: absolute;
+   right: 10%;
+   bottom: 0px;
 
 }
 .img-banner__carnes{
@@ -602,15 +609,15 @@ input[type="subject"],{
     left: 288px;
 }
 .container-etiqueta__green2{
-   background-color: #32CD32;
-   color: white;
-   text-align: center;
-   position: absolute;
-   height: 28px;
-   width: 109px;
-   padding: 2px;
+ background-color: #32CD32;
+ color: white;
+ text-align: center;
+ position: absolute;
+ height: 28px;
+ width: 109px;
+ padding: 2px;
 
-   left: 109px;
+ left: 109px;
 }
 .container-etiqueta__green3{
     background-color: #32CD32;
@@ -667,10 +674,10 @@ input[type="subject"],{
     line-height: 30px;
 }
 .container-final__content{
- display: grid;
- grid-template-columns: 372px 2fr 375px 1fr;
- padding-top: 50px;
- grid-gap: 20px;
+   display: grid;
+   grid-template-columns: 372px 2fr 375px 1fr;
+   padding-top: 50px;
+   grid-gap: 20px;
 }
 .container-final{
     background-color: #064867;
@@ -681,18 +688,18 @@ input[type="subject"],{
     font-weight: 800;
 }
 .link-correo:hover{
-   text-decoration: none;
-   color: white;
+ text-decoration: none;
+ color: white;
 
 }
 .link-numero{
-   font-size: 20px;
-   color: limegreen;
-   font-weight: 800;
+ font-size: 20px;
+ color: limegreen;
+ font-weight: 800;
 }
 .link-numero:hover{
- text-decoration: none;
- color: white;
+   text-decoration: none;
+   color: white;
 }
 .title-final{
     font-weight: 800;
@@ -738,13 +745,13 @@ input[type="subject"],{
     height: 347px;
 }
 .descripcion-queso{
- color: white;
- line-height: 30px;
- font-size: 17px;
+   color: white;
+   line-height: 30px;
+   font-size: 17px;
 }
 .img-destacado__bebida{
-   width: 114%;
-   height: 500px;
+ width: 114%;
+ height: 500px;
 }
 .container-alimentos__destacados2{
     display: flex;
@@ -1037,17 +1044,17 @@ input[type="subject"],{
         height: 80vh;
     }
     .container-alimentos__title{
-       margin-bottom: 0px;
-       padding-top: 20px;
+     margin-bottom: 0px;
+     padding-top: 20px;
 
-   }
-   .container-alimentos__text{
+ }
+ .container-alimentos__text{
     padding-bottom: 41px;
 }
 .container-alimentos__content{
- display: block;
- padding-top: 0px;
- width: 100%;
+   display: block;
+   padding-top: 0px;
+   width: 100%;
 }
 .container-alimentos__content2{
     display: grid;
@@ -1329,7 +1336,7 @@ input[type="subject"],{
     height: 116px;
 }
 .form-mensajes {
- margin-left: 0px;
+   margin-left: 0px;
 }
 .img-bebida {
     width: 96%;
@@ -1453,7 +1460,7 @@ input[type="subject"],{
 
 
 @media (min-width: 768px) and (max-width: 991px){
- .content-image {
+   .content-image {
     display: flex;
     align-items: center;
     justify-content: flex-end;
